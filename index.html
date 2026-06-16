@@ -1,0 +1,773 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClearWave(bootstrap)</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg py-3">
+      <div class="container">
+        <a
+          class="navbar-brand fw-bold fs-3 text-decoration-none text-dark"
+          href="#"
+        >
+          clear<span class="logo-green">wave</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+          aria-controls="menu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav mx-auto gap-lg-4">
+            <li class="nav-item">
+              <a class="nav-link" href="#">App</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center gap-3">
+            <a href="#" class="text-decoration-none text-dark"> Sign In </a>
+            <a href="#" class="btn trial-btn rounded-pill px-4 py-2">
+              Start Free Trial
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="container py-5 mt-5">
+      <div class="row align-items-center gx-5">
+        <!-- left -->
+        <div class="col-lg-5">
+          <div
+            class="bg-white rounded-pill px-3 py-2 d-inline-flex align-items-center shadow-sm mb-4"
+          >
+            <i class="fa-solid fa-circle-plus me-2 accent-text"></i>
+            <small class="fw-bold">
+              Rated
+              <span class="accent-text fw-bold">#1 Productivity SaaS</span>
+              of 2026
+            </small>
+          </div>
+          <h1 class="hero-title fw-bold mb-0">Your workflow,</h1>
+          <h1 class="hero-subtitle mb-4">finally clear.</h1>
+          <p class="hero-text text-secondary mb-4">
+            Clearwave unifies your team's projects, data, and communication into
+            one calm, focused surface. Less noise, more done.
+          </p>
+          <div class="d-flex gap-3 mb-4">
+            <a href="#" class="btn trial-btn px-4 py-3 rounded-pill px-4">
+              Start Free – No Card →
+            </a>
+            <a href="#" class="btn action-btn rounded-pill px-4 py-3">
+              <span class="play-circle me-2">
+                <i class="fa-solid fa-play"></i>
+              </span>
+              See it in action
+            </a>
+          </div>
+          <div class="d-flex flex-wrap gap-4 text-secondary">
+            <span>
+              <i class="fa-solid fa-shield-halved me-2 accent-text"></i>
+              SOC 2 Certified
+            </span>
+            <span>
+              <i class="fa-solid fa-bolt me-2 accent-text"></i>
+              99.9% Uptime SLA
+            </span>
+            <span>
+              <i class="fa-solid fa-users me-2 accent-text"></i>
+              50k+ Teams
+            </span>
+          </div>
+        </div>
+        <!-- right -->
+        <div class="col-lg-7">
+          <div class="dashboard-card">
+            <!-- Header -->
+            <div class="dashboard-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <div class="p-4">
+              <h6 class="fw-bold mb-4">Team Performance</h6>
+              <!-- Chart -->
+              <div class="bars mb-4">
+                <div class="bar h-25"></div>
+                <div class="bar h-50"></div>
+                <div class="bar h-75"></div>
+                <div class="bar active" style="height: 90px"></div>
+                <div class="bar h-50"></div>
+                <div class="bar active" style="height: 110px"></div>
+                <div class="bar h-75"></div>
+                <div class="bar active" style="height: 120px"></div>
+              </div>
+              <!-- Metrics -->
+              <div class="row g-3">
+                <div class="col-4">
+                  <div class="metric-card">
+                    <h4 class="fw-bold mb-1">94%</h4>
+                    <small class="text-secondary">Task Rate</small>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="metric-card">
+                    <h4 class="fw-bold mb-1">2.4k</h4>
+                    <small class="text-secondary">Active Users</small>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="metric-card">
+                    <h4 class="fw-bold mb-1">18h</h4>
+                    <small class="text-secondary">Saved / week</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Floating Growth Card -->
+            <div class="growth-card">
+              <h4 class="mb-1 fw-bold">↑ 34%</h4>
+              <small>Output this week</small>
+            </div>
+            <!-- Integration Card -->
+            <div class="integration-card">
+              <div class="plus-box">
+                <i class="fa-solid fa-plus"></i>
+              </div>
+              <div>
+                <h6 class="mb-0 fw-bold">New integration</h6>
+                <small class="text-secondary">
+                  Slack connected · just now
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <section class="trusted-section py-5 mt-5">
+      <div class="container">
+        <p class="trusted-title text-center text-secondary fw-semibold mb-5">
+          TRUSTED BY FORWARD-THINKING TEAMS AT
+        </p>
+        <div class="row text-center align-items-center g-4">
+          <div class="col-6 col-md-4 col-lg">
+            <h5 class="fw-semibold text-secondary mb-0">
+              <i class="fa-solid fa-cube me-2 accent-text"></i>
+              Nexaflow
+            </h5>
+          </div>
+          <div class="col-6 col-md-4 col-lg">
+            <h5 class="fw-semibold text-secondary mb-0">
+              <i class="fa-regular fa-clock me-2 accent-text"></i>
+              Meridian
+            </h5>
+          </div>
+          <div class="col-6 col-md-4 col-lg">
+            <h5 class="fw-semibold text-secondary mb-0">
+              <i class="fa-solid fa-play me-2 accent-text"></i>
+              Vanta Labs
+            </h5>
+          </div>
+          <div class="col-6 col-md-4 col-lg">
+            <h5 class="fw-semibold text-secondary mb-0">
+              <i class="fa-regular fa-square me-2 accent-text"></i>
+              Pulsar HQ
+            </h5>
+          </div>
+          <div class="col-6 col-md-4 col-lg">
+            <h5 class="fw-semibold text-secondary mb-0">
+              <i class="fa-regular fa-user me-2 accent-text"></i>
+              Arclight
+            </h5>
+          </div>
+          <div class="col-6 col-md-4 col-lg">
+            <h5 class="fw-semibold text-secondary mb-0">
+              <i class="fa-solid fa-layer-group me-2 accent-text"></i>
+              Korova Co.
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Slide 2 -->
+    <section class="container py-5">
+      <!-- Hero -->
+      <div class="text-center mb-5">
+        <div
+          class="d-inline-flex align-items-center feature-badge rounded-pill px-4 py-2 shadow-sm mb-4"
+        >
+          <small class="text-uppercase fw-semibold">
+            <i class="fa-solid fa-circle me-2 small-dot"></i>
+            Platform Features
+          </small>
+        </div>
+        <h1 class="feature-title fw-bold">
+          Built for <span>clarity</span><br />
+          at every scale
+        </h1>
+        <p class="text-secondary mx-auto w-50">
+          Every feature is designed to reduce friction and surface what matters.
+          No bloat, no configuration maze.
+        </p>
+      </div>
+      <!-- Part 1 -->
+      <section class="container py-5">
+        <div class="row align-items-center g-5">
+          <!-- LEFT -->
+          <div class="col-lg-6">
+            <small class="feature-label"> 01 — UNIFIED DASHBOARD </small>
+            <h3 class="display-6 fw-bold mt-3">
+              Every metric, one calm surface
+            </h3>
+            <p class="text-secondary mt-3">
+              Pull data from any source into a single, composable view. Share
+              live dashboards with stakeholders — no exports, no screenshots.
+            </p>
+            <ul class="feature-list mt-4">
+              <li>Drag-and-drop widget builder</li>
+              <li>Real-time data sync across all sources</li>
+              <li>Role-based sharing with granular permissions</li>
+            </ul>
+          </div>
+          <!-- RIGHT -->
+          <div class="col-lg-6">
+            <div class="card analytics-card border-0">
+              <div class="row g-3 mb-3">
+                <div class="col-6">
+                  <div class="card border-0 bg-light rounded-4">
+                    <div class="card-body">
+                      <small class="text-secondary"> Monthly Revenue </small>
+                      <h4 class="fw-bold mt-2">$84.2k</h4>
+                      <div class="line-bar mt-2"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="card border-0 bg-light rounded-4">
+                    <div class="card-body">
+                      <small class="text-secondary"> Active Users </small>
+                      <h4 class="fw-bold mt-2">12,481</h4>
+                      <div class="line-bar mt-2"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="activity-box">
+                <h6 class="mb-3">Recent Activity</h6>
+                <div class="activity-item">
+                  <span>Q3 Report synced</span>
+                  <small>Done</small>
+                </div>
+                <div class="activity-item">
+                  <span>Team review pending</span>
+                  <small>Active</small>
+                </div>
+                <div class="activity-item">
+                  <span>Analytics export</span>
+                  <small>Queued</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- part-2 -->
+      <section class="container py-5">
+        <div class="row align-items-center g-5">
+          <!-- LEFT CARD -->
+          <div class="col-lg-6">
+            <div class="automation-card">
+              <div class="d-flex flex-column gap-2">
+                <div class="automation-item">
+                  <span>Weekly digest → Slack</span>
+                  <small>Running</small>
+                </div>
+                <div class="automation-item">
+                  <span>Lead scored → Notify sales</span>
+                  <small>Running</small>
+                </div>
+                <div class="automation-item">
+                  <span>Invoice due → Alert CFO</span>
+                  <small>Active</small>
+                </div>
+                <div class="automation-item">
+                  <span>Report sync → Drive</span>
+                  <small>Paused</small>
+                </div>
+              </div>
+              <div class="row g-3 mt-1">
+                <div class="col-8">
+                  <div class="card border-0 bg-light rounded-4 h-100">
+                    <div class="card-body">
+                      <small class="text-secondary">
+                        Hours Saved This Month
+                      </small>
+                      <h4 class="fw-bold mt-2">148h</h4>
+                      <div class="line-bar mt-2"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card border-0 bg-light rounded-4 h-100">
+                    <div class="card-body">
+                      <small class="text-secondary"> Flows </small>
+                      <h4 class="fw-bold mt-2">24</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- RIGHT CONTENT -->
+          <div class="col-lg-6">
+            <small class="feature-label"> 02 — AUTOMATION FLOWS </small>
+            <h3 class="display-6 fw-bold mt-3">
+              Routines that run<br />
+              <span class="italic-word">themselves</span>
+            </h3>
+            <p class="text-secondary mt-3">
+              Build automation flows with natural language. Clearwave
+              understands your intent and suggests the next step — no flowchart
+              diagrams needed.
+            </p>
+            <ul class="feature-list mt-4">
+              <li>Natural language automation builder</li>
+              <li>500+ pre-built trigger templates</li>
+              <li>Full audit trail for every action</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- part-3 -->
+      <section class="container py-5">
+        <div class="row align-items-center g-5">
+          <!-- LEFT CONTENT -->
+          <div class="col-lg-6">
+            <small class="feature-label"> 03 — TEAM COLLABORATION </small>
+            <h3 class="display-6 fw-bold mt-3">
+              Comments, context,<br />
+              and clarity
+            </h3>
+            <p class="text-secondary mt-3">
+              Annotate anything, assign tasks inline, and resolve conversations
+              without switching tabs. The work and discussion stay together.
+            </p>
+            <ul class="feature-list mt-4">
+              <li>Inline comments on any data point</li>
+              <li>Threaded task assignments</li>
+              <li>Real-time presence and live cursors</li>
+            </ul>
+          </div>
+          <!-- RIGHT CARD -->
+          <div class="col-lg-6">
+            <div class="collaboration-card">
+              <div class="row g-3 mb-3">
+                <!-- Online Card -->
+                <div class="col-7">
+                  <div class="card border-0 bg-light rounded-4 h-100">
+                    <div class="card-body">
+                      <small class="text-secondary"> Online Now </small>
+                      <div class="avatars mt-3">
+                        <span>A</span>
+                        <span>K</span>
+                        <span>M</span>
+                        <span>+5</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Task Card -->
+                <div class="col-5">
+                  <div class="card border-0 bg-light rounded-4 h-100">
+                    <div class="card-body">
+                      <small class="text-secondary"> Open Tasks </small>
+                      <h4 class="fw-bold mt-2">37</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Comments -->
+              <div class="comments-box">
+                <h6 class="mb-3">Recent Comments</h6>
+                <div class="activity-item">
+                  <span>Alex → Q3 chart updated</span>
+                  <small>Resolved</small>
+                </div>
+                <div class="activity-item">
+                  <span>Kim → Review needed</span>
+                  <small>Open</small>
+                </div>
+                <div class="activity-item">
+                  <span>Maya → Approved & shipped</span>
+                  <small>Done</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- footer -->
+    <section class="stats-footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 stat-item last-stat">
+            <div class="stat-line"></div>
+            <h2 class="stat-number">17<span>K+</span></h2>
+            <h6 class="fw-semibold">Teams Worldwide</h6>
+            <p>Across 80+ countries</p>
+          </div>
+          <div class="col-md-3 stat-item">
+            <div class="stat-line"></div>
+            <h2 class="stat-number">11<span>%</span></h2>
+            <h6 class="fw-semibold">Avg. Productivity Gain</h6>
+            <p>Measured in first 30 days</p>
+          </div>
+          <div class="col-md-3 stat-item">
+            <div class="stat-line"></div>
+            <h2 class="stat-number">34.3<span>%</span></h2>
+            <h6 class="fw-semibold">Uptime SLA</h6>
+            <p>Guaranteed and monitored</p>
+          </div>
+          <div class="col-md-3 stat-item last-stat">
+            <div class="stat-line"></div>
+            <h2 class="stat-number">6<span>h</span></h2>
+            <h6 class="fw-semibold">Saved Per Team Weekly</h6>
+            <p>On average across all plans</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Slide 3 -->
+    <section class="slide-bg-1 py-5">
+      <section class="container py-5 my-5">
+        <!-- Heading -->
+        <div class="text-center mb-5">
+          <div
+            class="pricing-badge d-inline-flex align-items-center px-3 py-2 rounded-pill mb-4"
+          >
+            <i class="fa-solid fa-circle me-2 small-dot"></i>
+            <small class="fw-bold text-uppercase">Pricing</small>
+          </div>
+          <h2 class="pricing-title fw-bold">
+            Simple,
+            <span>transparent</span>
+            pricing
+          </h2>
+          <p class="text-secondary mt-3">
+            No hidden fees. No surprise overages. Cancel anytime.
+          </p>
+          <!-- Toggle -->
+          <div
+            class="d-flex justify-content-center align-items-center gap-3 mt-4"
+          >
+            <span class="fw-semibold accent-text">Monthly</span>
+            <div class="pricing-toggle">
+              <div class="toggle-dot"></div>
+            </div>
+            <span class="text-secondary fw-semibold">Annual</span>
+            <span class="save-badge"> Save 35% </span>
+          </div>
+        </div>
+        <!-- Pricing Cards -->
+        <div class="row justify-content-center g-4">
+          <!-- Starter -->
+          <div class="col-lg-4">
+            <div class="card border-0 shadow-sm pricing-card h-100">
+              <div class="card-body p-4">
+                <small class="pricing-label"> STARTER </small>
+                <div class="my-4">
+                  <span class="currency">$</span>
+                  <span class="price">20</span>
+                  <span class="text-secondary">/ mo</span>
+                </div>
+                <p class="text-secondary mb-4">
+                  For individuals and small teams getting started with
+                  structured workflows.
+                </p>
+                <hr />
+                <ul class="list-unstyled pricing-list">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Up to 5 team
+                    members
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> 10 active
+                    dashboards
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Basic automations
+                    (50/mo)
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> 7-day data history
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Email support
+                  </li>
+                </ul>
+                <button
+                  class="btn btn-outline-success w-100 rounded-pill py-3 mt-3"
+                >
+                  Start Free Trial
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Professional -->
+          <div class="col-lg-4">
+            <div
+              class="card border-0 pricing-card-dark h-100 position-relative"
+            >
+              <span class="popular-badge"> MOST POPULAR </span>
+              <div class="card-body p-4">
+                <small class="pricing-label-dark"> PROFESSIONAL </small>
+                <div class="my-4 text-white">
+                  <span class="currency">$</span>
+                  <span class="price">60</span>
+                  <span class="text-light">/ mo</span>
+                </div>
+                <p class="text-light mb-4">
+                  For growing teams that need powerful automation and advanced
+                  reporting.
+                </p>
+                <hr class="border-secondary" />
+                <ul class="list-unstyled pricing-list-dark">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Up to 25 team
+                    members
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Unlimited
+                    dashboards
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Advanced
+                    automations
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> 90-day data history
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Priority chat
+                    support
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Mobile app access
+                  </li>
+                </ul>
+                <button class="btn trial-btn w-100 rounded-pill py-3 mt-3">
+                  Start Free Trial
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Enterprise -->
+          <div class="col-lg-4">
+            <div class="card border-0 shadow-sm pricing-card h-100">
+              <div class="card-body p-4">
+                <small class="pricing-label"> ENTERPRISE </small>
+                <div class="my-4">
+                  <span class="currency">$</span>
+                  <span class="price">150</span>
+                  <span class="text-secondary">/ mo</span>
+                </div>
+                <p class="text-secondary mb-4">
+                  For large organizations with custom requirements and
+                  compliance needs.
+                </p>
+                <hr />
+                <ul class="list-unstyled pricing-list">
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Unlimited members
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Custom integrations
+                    & API
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> SSO & permissions
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Unlimited data
+                    history
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> Dedicated success
+                    manager
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check"></i> SOC 2 reports
+                  </li>
+                </ul>
+                <button
+                  class="btn btn-outline-success w-100 rounded-pill py-3 mt-3"
+                >
+                  Contact Sales
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- slide 4 -->
+    <section class="container py-5 my-5">
+      <!-- Heading -->
+      <div class="text-center mb-5">
+        <div class="testimonial-line mx-auto mb-4"></div>
+        <h2 class="fw-bold display-5">
+          Teams that
+          <span class="testimonial-highlight">love</span>
+          Clearwave
+        </h2>
+        <p class="text-secondary mx-auto mt-3" style="max-width: 420px">
+          Don't take our word for it — here's what real teams say after 90 days.
+        </p>
+      </div>
+      <!-- Testimonials -->
+      <div class="row g-4 justify-content-center">
+        <!-- Large Card -->
+        <div class="col-lg-4">
+          <div class="card border-0 shadow-sm testimonial-card-lg h-100">
+            <div class="card-body p-4">
+              <div class="stars mb-4">★★★★★</div>
+
+              <p class="testimonial-text">
+                "We replaced three separate tools with Clearwave and actually
+                have fewer meetings now. The automation flows handle the
+                handoffs our team used to spend mornings sorting out. It's the
+                calmest workflow has ever felt."
+              </p>
+              <div class="d-flex align-items-center mt-4">
+                <div class="avatar">SL</div>
+                <div class="ms-3">
+                  <h6 class="mb-0 fw-bold">Sarah Lindqvist</h6>
+                  <small class="text-secondary">
+                    Head of Operations · Stratum IO
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Right Side -->
+        <div class="col-lg-8">
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="card border-0 shadow-sm testimonial-card h-100">
+                <div class="card-body p-4">
+                  <div class="stars mb-3">★★★★★</div>
+                  <p class="testimonial-text-sm">
+                    "The mobile app alone justified the switch. I can review
+                    dashboards and approve tasks between meetings."
+                  </p>
+                  <div class="d-flex align-items-center mt-4">
+                    <div class="avatar">MR</div>
+                    <div class="ms-3">
+                      <h6 class="mb-0 fw-bold">Marcus Reyes</h6>
+                      <small class="text-secondary">
+                        Product Director · Meridian
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card border-0 shadow-sm testimonial-card h-100">
+                <div class="card-body p-4">
+                  <div class="stars mb-3">★★★★★</div>
+                  <p class="testimonial-text-sm">
+                    "Onboarding our 30-person team took one afternoon. The
+                    learning curve is genuinely flat."
+                  </p>
+                  <div class="d-flex align-items-center mt-4">
+                    <div class="avatar">PK</div>
+                    <div class="ms-3">
+                      <h6 class="mb-0 fw-bold">Priya Kapoor</h6>
+                      <small class="text-secondary">
+                        Engineering Lead · Vanta Labs
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card border-0 shadow-sm testimonial-card">
+                <div class="card-body p-4">
+                  <p class="testimonial-text-sm">
+                    "...ahead of what we had. We can finally show stakeholders
+                    live data instead of preparing decks."
+                  </p>
+                  <div class="d-flex align-items-center mt-4">
+                    <div class="avatar">TW</div>
+                    <div class="ms-3">
+                      <h6 class="mb-0 fw-bold">Tom Wainwright</h6>
+                      <small class="text-secondary"> CFO · Pulsar HQ </small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card border-0 shadow-sm testimonial-card">
+                <div class="card-body p-4">
+                  <p class="testimonial-text-sm">
+                    "...message. Had a custom integration question answered in
+                    under two hours."
+                  </p>
+                  <div class="d-flex align-items-center mt-4">
+                    <div class="avatar">AN</div>
+                    <div class="ms-3">
+                      <h6 class="mb-0 fw-bold">Aiko Nakamura</h6>
+                      <small class="text-secondary"> CTO · Nexaflow </small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- slide 5 -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
