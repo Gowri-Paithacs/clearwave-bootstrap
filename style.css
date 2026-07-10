@@ -277,24 +277,9 @@ body {
 .avatars span:nth-child(4) {
   background: #67b8b2;
 }
-.activity-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #edf5f2;
-  padding: 10px 12px;
-  border-radius: 10px;
-  margin-bottom: 8px;
-}
 .activity-item small {
   color: var(--accent);
   font-weight: 600;
-}
-.feature-label {
-  color: #78bdb4;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
 }
 .feature-title span {
   font-size: 45px;
@@ -302,11 +287,6 @@ body {
   color: var(--accent);
   font-style: italic;
   font-family: "Playfair Display", serif;
-}
-
-.feature-list {
-  list-style: none;
-  padding: 0;
 }
 .feature-list li {
   position: relative;
